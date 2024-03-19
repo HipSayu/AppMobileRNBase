@@ -1,8 +1,11 @@
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground } from 'react-native';
+import Navigation from '~/Routes';
+
+import { NavigationContainer } from '@react-navigation/native';
 export default function App() {
     return (
-        <View>
-            <Text>Thiên thượng thiên hạ Hịp mãi đẹp trai</Text>
-        </View>
+        <NavigationContainer>
+            <Navigation />
+        </NavigationContainer>
     );
 }
