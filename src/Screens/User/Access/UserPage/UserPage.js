@@ -4,7 +4,7 @@ import React from 'react';
 export default function UserPage() {
     return (
         <View>
-            <Text>UserPage</Text>
+            <Text>Thanh xinh gai</Text>
         </View>
     );
 }
